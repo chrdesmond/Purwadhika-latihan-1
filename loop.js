@@ -88,7 +88,7 @@ for(let i = 0; i < name.length; i++) {
 }
 
 let count = 0
-for(let i = 0; i < name.length; i++) {
+for(let i = 0; i < name.length; i++) { //.length untuk mendapatkan seluruh jumlah huruf di sebuah nama atau kalimat
     if(name[i] == "a") {
         count++
     }
